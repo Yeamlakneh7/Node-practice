@@ -27,3 +27,4 @@ a();
 // };
 // obj1.num1();
 // obj1.num1();
+// one line added.
