@@ -1,10 +1,12 @@
-var a = 12;
-function sum() {
-    var b = 8;
-    console.log(a+b);
+// var a1 = 12;
+// var b1 = 8;
+function sum(a, b) {
+    let c;
+    c = a + b;
+    console.log(c);
 }
-// console.log(module);
-sum();
+// // console.log(module);
+// sum();
 
 module.exports.sum = sum;
-console.log(module);
+// console.log(module);
