@@ -10,3 +10,11 @@ function sum(a, b) {
 
 module.exports.sum = sum;
 // console.log(module);
+
+function diff(a, b) {
+    let d;
+    d = a - b;
+    console.log(d);
+}
+
+module.exports.diff = diff;

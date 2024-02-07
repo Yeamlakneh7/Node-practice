@@ -8,3 +8,6 @@ var aa = 22;
 var take = require("./file1");
 
 take.sum(3,1);
+
+take.diff(8,2);
+// console.log(take2);
