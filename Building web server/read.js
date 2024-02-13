@@ -16,9 +16,3 @@ let read = fs.readFile('file.txt', 'utf-8', (err, data) => {
 //     }
 // })
 
-let writeFile = fs.writeFile('message.txt', 'utf-8', (err) = {
-    if(err) {
-        console.error(err);
-    } 
-    
-})
