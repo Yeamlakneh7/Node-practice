@@ -6,9 +6,10 @@ let os = require('os');
 
 let freemem = os.freemem();
 // console.log(freemem);
+console.log(freemem/(1024*1024*1024));
 
 let totalmem = os.totalmem();
-console.log(totalmem);
+console.log(totalmem/(1024*1024*1024));
 
 let some = os.arch()
 // console.log(some);
