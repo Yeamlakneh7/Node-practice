@@ -19,6 +19,8 @@ const server2 = http.createServer((req, res) => {
     else {res.end("<h1> Page not supported!")}
 });
 
-server2.listen(2323, () => {
+server2.listen(2424, () => {
     console.log('server listening');
 });
+
+console.log("Hello");

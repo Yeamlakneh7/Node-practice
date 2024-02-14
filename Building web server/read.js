@@ -34,6 +34,11 @@ writeFile('fs.js', "console.log('Hello')", (err) => {
     else {
         console.log('New file created');
     }
+    writeFile('index.js', "console.log('http module')", (err) => {
+        if (err) console.log(err)
+        console.log("file also added")
+    }
+    )
 })
 
 readFile('fs.js', 'utf-8', (err, data) => {
@@ -44,3 +49,12 @@ readFile('fs.js', 'utf-8', (err, data) => {
         console.log(data)
     }
 })
+
+// mkdir('http', (err) => {
+//     if (err) console.log("error", err)
+//     console.log("new directory created")
+// });
+
+// writeFile('./', (err) => {
+
+// })
