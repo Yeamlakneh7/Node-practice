@@ -1,12 +1,11 @@
-const express = require("express");
+const take = require("express");
 
-const app = express();
+const app = take();
 
-const PORT = 5555;
+const PORT = 1552;
 
 app.listen(PORT, (err) => {
-    if (err) console.log(err);
-    console.log("Listening from localhost:5555");
-});
+    console.log("Server listens at port 1552");
+})
 
-app.use(express.static("././ResponsiveWeb"));
+app.use(take.static("ResponsiveWeb"));
