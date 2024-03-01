@@ -27,11 +27,11 @@ const express = require("express");
 
 const app = express();
 
-const PORT = 3033;
+const PORT = 2323;
 
 app.listen(PORT, (err) => {
     if (err) console.log(err);
-    console.log("Listening from localhost:3033");
+    console.log("Listening from localhost:2323");
 });
 
 app.use(express.static("ResponsiveWeb"));
